@@ -28,6 +28,6 @@ gs = GlobalSearch;
 [xbest,fbest] = run(gs,problem);
 cbest = deckConstraints(xbest);
 
-fprintf('\nFinal cost = £%g\n', fbest);
+fprintf('\nFinal cost = Â£%g\n', fbest);
 fprintf('Number of ply = %g\nDeck length = %g mm\nDeck width = %g mm\n', xbest(1), xbest(2), xbest(3));
 fprintf('Stress constraint = %g MPa\nStiffness constraint = %g KN\nCompliance constraint = %g KN\n', cbest(1)*10^(-6), cbest(2)*10^(-3), cbest(3)*10^(-3));

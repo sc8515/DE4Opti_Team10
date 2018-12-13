@@ -1,5 +1,5 @@
 # Cost optimisation of an electric skateboard
-Clarisse Bret, Sergi Capdevila
+Authors: Clarisse Bret, Sergi Capdevila
 
 The purpose of this project is to optimise the price of electric skateboards by focusing on the price of the deck and the wheels. The main barriers to price is safety in the shape of minimum load required to be supported. For the optimisation of both subsystems, fmincon and ga algorithmic models have been explored and applied. results are a deck with a cost of £18.8 and wheels with a cost of £0.54 each.
 
@@ -26,12 +26,11 @@ An average cost for the truck and electronics was extrapolated from off-shelf co
     
 ## Materials
 
-Maple (acer rubrum), Birch (betula verrucosa), Pine (pinus elloittii), Bamboo, Ash (fraxinus excelsior), Oak (quercus virginiana), Beech (fagus sylvatica), PA66 (40% long glass fiber).
+The set of materials include Maple (acer rubrum), Birch (betula verrucosa), Pine (pinus elloittii), Bamboo, Ash (fraxinus excelsior), Oak (quercus virginiana), Beech (fagus sylvatica), PA66 (40% long glass fiber).
 
 ## How does it work?
 
-
-
+For each material, [runScenario](https://github.com/clarissebret/DE4Opti_Team10/blob/master/Deck/runScenarios.m) runs two optimisation solver (`fmincon` and `ga`)
 
 # 3. Wheel cost
     

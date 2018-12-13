@@ -37,4 +37,9 @@ For each material, [runScenario](https://github.com/clarissebret/DE4Opti_Team10/
 
 # 3. Wheel cost
     
+# References
+
+- [fmincon](https://uk.mathworks.com/help/optim/ug/fmincon.html)
+- [global search](https://uk.mathworks.com/help/gads/globalsearch.html)
+- [genetic algorithm](https://uk.mathworks.com/help/gads/ga.html)
 

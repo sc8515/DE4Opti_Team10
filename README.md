@@ -5,4 +5,12 @@ The purpose of this project is to optimise the price of electric skateboards by 
 
 ## Prerequesites
 
-The Global Optimisation Toolbox
+The [Global Optimisation Toolbox](https://uk.mathworks.com/products/global-optimization.html)
+
+## Deck
+
+- Open [materialSelection](https://github.com/clarissebret/DE4Opti_Team10/blob/master/Deck/materialSelection.mat) to your workspace to import properties of the pre-selected materials.
+- Execute [runScenario](https://github.com/clarissebret/DE4Opti_Team10/blob/master/Deck/runScenarios.m). This script runs 3 scenario segments:
+    1. The deck is made of a single type of wood. As matrix, the ply is cut parallel to grain. As fibre, the ply is cut perpendicular to grain (e.g., transversal birch reinforced with longitudinal birch).
+    2. The deck is made of a wood matrix reinforced by bamboo (e.g., transversal birch reinforced with bamboo).
+    3. The deck is made of a wood matrix reinforced by glass fibres (e.g., transversal birch reinforced with PA66 glass fibre). 

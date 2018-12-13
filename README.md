@@ -30,7 +30,10 @@ The set of materials include Maple (acer rubrum), Birch (betula verrucosa), Pine
 
 ## How does it work?
 
-For each material, [runScenario](https://github.com/clarissebret/DE4Opti_Team10/blob/master/Deck/runScenarios.m) runs two optimisation solver (`fmincon` and `ga`)
+For each material, [runScenario](https://github.com/clarissebret/DE4Opti_Team10/blob/master/Deck/runScenarios.m) runs two optimisation solver
+   
+- The gradient-based algorithm `fmincon` using global search.
+- The genetic algorithm `ga`.
 
 # 3. Wheel cost
     

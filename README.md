@@ -5,17 +5,19 @@ The purpose of this project is to optimise the price of electric skateboards by 
 
 # Prerequesites
 
-The [Global Optimisation Toolbox](https://uk.mathworks.com/products/global-optimization.html)
+You will need to install the [Global Optimisation Toolbox](https://uk.mathworks.com/products/global-optimization.html).
 
 
-# 1. Skaeboard cost
+# 1. Skateboard cost
+
+An average cost for the truck and electronics was extrapolated from off-shelf components.
 
 
 # 2. Deck cost
 
 ## Start
 
-- Open [materialSelection](https://github.com/clarissebret/DE4Opti_Team10/blob/master/Deck/materialSelection.mat) in your workspace to import properties of the 16 pre-selected materials.
+- Open the [materialSelection](https://github.com/clarissebret/DE4Opti_Team10/blob/master/Deck/materialSelection.mat) data in your workspace to import properties of the 8 pre-selected materials.
 - Execute [runScenario](https://github.com/clarissebret/DE4Opti_Team10/blob/master/Deck/runScenarios.m). This script runs 3 scenario segments:
 
     1. The deck is made of a single type of wood. As matrix, the ply is cut parallel to grain. As fibre, the ply is cut perpendicular to grain (e.g., transversal birch reinforced with longitudinal birch).
@@ -24,7 +26,11 @@ The [Global Optimisation Toolbox](https://uk.mathworks.com/products/global-optim
     
 ## Materials
 
-Maple (acer rubrum), Birch (betula verrucosa), Pine (pinus elloittii), Bamboo, Ash (fraxinus excelsior), Oak (quercus virginiana), Beech (fagus sylvatica), PA66 (40% long glass fiber)
+Maple (acer rubrum), Birch (betula verrucosa), Pine (pinus elloittii), Bamboo, Ash (fraxinus excelsior), Oak (quercus virginiana), Beech (fagus sylvatica), PA66 (40% long glass fiber).
+
+## How does it work?
+
+
 
 
 # 3. Wheel cost

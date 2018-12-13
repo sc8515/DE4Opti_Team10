@@ -1,0 +1,16 @@
+nb,name,tensileStrength,youngsModulus,density,cost
+1,Maple (acer rubrum) (t),4.65,1.405,605,27.8
+2,Maple (acer rubrum) (l),85.95,12.45,605,27.8
+3,Birch (betula verrucosa) (t),4.14,0.88,690,21.5
+4,Birch (betula verrucosa) (l),135.5,16.3,690,21.5
+5,Pine (pinus elloittii) (t),3.39,1.83,660,29.6
+6,Pine (pinus elloittii) (l),104.55,15,660,29.6
+7,Bamboo (t),1.75,37.5,700,26.2
+8,Bamboo (l),240,17.5,700,26.2
+9,Ash (fraxinus excelsior) (t),9.1,2.085,690,26.7
+10,Ash (fraxinus excelsior) (l),165.5,14.2,690,26.7
+11,Oak (quercus virginiana) (t),3.81,6.075,986.5,27.8
+12,Oak (quercus virginiana) (l),118,15,986.5,27.8
+13,Beech (fagus sylvatica) (t),3.55,2.68,755,17.4
+14,Beech (fagus sylvatica) (l),118,15.75,755,17.4
+16,PA66 (40% long glass fiber),160,10,1463,62.3
